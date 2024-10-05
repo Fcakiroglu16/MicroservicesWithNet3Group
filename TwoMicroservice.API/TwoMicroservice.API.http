@@ -1,0 +1,6 @@
+@TwoMicroservice.API_HostAddress = http://localhost:5239
+
+GET {{TwoMicroservice.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
