@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneMicroservice.API", "OneMicroservice.API\OneMicroservice.API.csproj", "{DD839A0A-83E6-4AF4-B9EE-4B3BD6BF6840}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OneMicroservice.API", "OneMicroservice.API\OneMicroservice.API.csproj", "{DD839A0A-83E6-4AF4-B9EE-4B3BD6BF6840}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoMicroservice.API", "TwoMicroservice.API\TwoMicroservice.API.csproj", "{F85F7398-DA9F-45C8-A2C0-C92760212644}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoMicroservice.API", "TwoMicroservice.API\TwoMicroservice.API.csproj", "{F85F7398-DA9F-45C8-A2C0-C92760212644}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bus.Shared", "Bus.Shared\Bus.Shared.csproj", "{985F1C76-5D58-4481-91D5-F8E35BB33517}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bus.Shared", "Bus.Shared\Bus.Shared.csproj", "{985F1C76-5D58-4481-91D5-F8E35BB33517}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQExample.API", "RabbitMQExample.API\RabbitMQExample.API.csproj", "{DDF52A51-7048-4C0E-88E4-B259D4DFD9E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerService1", "WorkerService1\WorkerService1.csproj", "{BB2DB1DD-DAC5-437F-99FE-75A6C4C7B639}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{985F1C76-5D58-4481-91D5-F8E35BB33517}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{985F1C76-5D58-4481-91D5-F8E35BB33517}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{985F1C76-5D58-4481-91D5-F8E35BB33517}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDF52A51-7048-4C0E-88E4-B259D4DFD9E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDF52A51-7048-4C0E-88E4-B259D4DFD9E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDF52A51-7048-4C0E-88E4-B259D4DFD9E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDF52A51-7048-4C0E-88E4-B259D4DFD9E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB2DB1DD-DAC5-437F-99FE-75A6C4C7B639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB2DB1DD-DAC5-437F-99FE-75A6C4C7B639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB2DB1DD-DAC5-437F-99FE-75A6C4C7B639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB2DB1DD-DAC5-437F-99FE-75A6C4C7B639}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
